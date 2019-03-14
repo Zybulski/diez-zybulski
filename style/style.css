@@ -1,0 +1,226 @@
+body{
+	background-color: #f9fcfc;
+	width: 320px;
+}
+
+h1{
+
+}
+
+h2{
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	font-size: 30px;
+}
+
+
+a{
+	text-decoration: none;
+}
+
+img{
+	width: 100%;
+	height: auto;
+}
+
+.body__wrapper{
+	padding: 0px 16px;	
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.header__menu{
+	display: none;
+}
+
+.promo__wrapper{
+	background-image: url(../img/bg_main_320.png);
+	background-size: 100%;
+	
+}
+
+.section__headline h2{
+	width: 228px;
+	padding: 0 11px;
+}
+
+.promo__headline p:after{
+	content:' получать удовольствие от музыки и не бояться сцены';
+}
+
+.promo__trial{
+	margin: 0 auto;
+}
+
+.promo__trial{
+	width: 288px;
+	height: 60px;
+	background-color: #eec643;
+	text-align: center;
+}
+
+.footer__trial{
+	width: 288px;
+	height: 60px;
+	background-color: #eec643;
+	text-align: center;
+	margin: 20px 0px;
+	
+}
+
+.promo__trial_button a{
+	text-transform: uppercase;
+}
+
+.promo__trial_form{
+	display: none;
+}
+
+.classes__lections{
+	display: none;
+}
+
+.classes__wrapper{
+	
+}
+
+.classes__list{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+	/*position: relative;*/
+}
+
+.classes__guitar{
+	
+}
+
+.classes__guitar span{
+	display: none;
+}
+
+.classes__vocal{
+
+}
+
+.classes__piano{
+	
+}
+
+.classes__all-classes{
+	position: relative;
+}
+
+.classes__all-classes h3{
+	position: absolute;
+	transform: rotate(-90deg);
+	right:  -90px;
+	bottom: 30px;
+	margin: 0;
+
+	
+	/*height: : 20%;
+	transform-origin: 60% 60%;
+	border: 1px solid #000;
+	background-color: #fff;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;*/
+}
+
+.about__trial_button{
+	position: relative;
+}
+
+.about__trial_button h3{
+	position: absolute;
+	transform: rotate(-90deg);
+	left: 220px;
+	bottom: 10px;
+}
+
+.col100{
+	width: 100%;
+	height: 144px;
+}
+
+.col80{
+	width: 80%;
+}
+
+.vids__lg{
+	width: 240px;
+	padding: 17px 24px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+}
+
+.vids__sm{
+	display: none;
+}
+
+.footer__map{
+	width: 288px;
+ 	height: 216px;
+
+}
+
+.footer__logo{
+	display: none;
+}
+
+ .footer__menu{
+	display: none;
+ }
+
+
+
+/*@media (min-width: 640px){
+
+}*/
+
+/*@media (min-width: 1280px){
+	.header-menu{
+		display: flex;
+	}
+	.logo-container{
+		font-size: 50px;
+	}
+	h1{
+	text-transform: lowercase;
+	font-size: 48px;.
+	}
+	h1:before{
+		content: 'Diaz -';
+		text-transform: capitalize;
+	}
+	.promo_headline{
+		width: 50%;
+	}
+	.promo_headline p{
+		width: 500px;
+		font-size:18px ;
+		display: block;
+	}
+	.promo_headline p:after{
+		content: ' не бояться сцены и получать удовольствие от музыки';
+	}
+	.trial_button{
+		display: none;
+	}
+}*/

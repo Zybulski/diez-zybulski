@@ -291,13 +291,29 @@ footer{
 }*/
 
 @media (min-width: 1280px){
-.header-menu{
-	display: flex;
+.header__menu{
+	display: inline;
 }
 
-	.logo-container{
-		font-size: 50px;
-	}
+.trial{
+	display: none;
+}
+
+.promo{
+	background-image: url(../img/bg_main.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.section__wrapper{
+	margin: 0 auto;
+	padding: 0 16px;
+	display: flex;
+	flex-direction: column;
+	min-width: 641px;
+	max-width:1440px;
+	width: 100%;
+}
 
 	h1{
 	text-transform: lowercase;
